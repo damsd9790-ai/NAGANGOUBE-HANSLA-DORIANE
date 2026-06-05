@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+</head>
+<body>
+    <!-- barre de progression -->
+     <div id="progress-bar"></div>
+
+     <!-- curseur -->
+      <div class="cursor"></div>
+
+      <!-- bulles -->
+       <div class="bubbles">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+       </div>
+
+       <!-- navbar -->
+        <header>
+
+            <nav class="navbar">
+                <div class="logo">
+                    NGANGOUBE HANSLA DORIANE
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Accueil</a></li>
+                    <li><a href="#about">A propos</a></li>
+                    <li><a href="#skills">Compétences</a></li>
+                    <li><a href="#projects">Projets</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- hero -->
+
+        <section id="home" class="hero hidden">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Bonjour, je suis Doriane 👋</h1>
+                    <h2>Etudiante en Génie Informatique</h2>
+                    <p>Passionnée par ke développement web, le design d'interfaces modernes et les technologies innovantes.</p>
+
+                    <div class="buttons">
+                        <a href="#projects" class="btn">Voir mes Projets</a>
+                        <a href="#" class="btn-outline">Télécharger CV</a>
+                    </div>
+                </div>
+
+                <div class="hero-image">
+                    <img src="images/WhatsApp Image 2026-06-05 at 23.18.41.jpeg" alt="photo de profil">
+                </div>
+            </div>
+        </section>
+
+        <!-- about -->
+        <section id="about" class="about hidden">
+            <h2 class="section-title">
+                A propros de moi
+            </h2>
+
+            <div class="about-card">
+                <p> Je suis une étudiante en Génie Informatique Passionnée par la création de solutions numériques modernes, le développement d'applications web et l'apprentissage continu.</p>
+            </div>
+        </section>
+
+         <!-- skills -->
+        <section id="skills">
+            <h2 class="section-title">Compétences</h2>
+
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fa-brands fa-html5"></i>
+                    <h3>HTML</h3>
+                </div>
+                
+                <div class="skill-card">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <h3>CSS3</h3>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fa-brands fa-js"></i>
+                    <h3>JavaScript</h3>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fa-brands fa-database"></i>
+                    <h3>MySQL</h3>
+                </div>
+            </div>
+        </section>
+
+        <!--projets-->
+        <section id="projects" class="projects hidden">
+            <h2 class="section-title">Mes Projets</h2>
+
+            <div class="projet-grid">
+                <div class="projet-card skill-card">
+                    <h3>Portfolio Personnel</h3>
+                    <p>portfolio dynamique et moderne responsive</p>
+                </div>
+
+                <div class="projet-card skill-card">
+                    <h3>Calculatrice web</h3>
+                    <p>Application web interactive</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- timeline -->
+
+        <section class="timeline hidden">
+            <h2 class="section-title">Parcours Academique</h2>
+
+            <div class="timemine-container">
+                <div class="timeline-item">
+                    <span>2024-2025</span>
+                    <h3>Baccalaureat scientifique série C</h3>
+                </div>
+                <div class="timeline-item">
+                    <span>2025-Aujourd'hui</span>
+                    <h3>Début des études Génie Informatique</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- contact -->
+         <section id="contact" class="contact  hidden">
+            <h2 class="section-title">
+                Contact
+            </h2>
+            <form class="contact-form">
+                <input type="text" placeholder="votre nom">
+                <input type="email" placeholder="votre email">
+                <textarea placeholder="votre message"></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+         </section>
+
+         <!-- footer -->
+          <footer>
+            <h3>NGANGOUBE HANSLA DORIANE</h3>
+            <P>&copy; 2026 Tous droits réservés</P>
+          </footer>
+
+          <!-- bouton retour en haut -->
+           <button id="topBtn"type="submit">⬆️</button>
+
+           <script src="javascript.js"></script>
+
+</body>
+</html>
